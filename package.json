@@ -1,0 +1,18 @@
+{
+  "name": "backend-node",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "repository": "https://github.com/hugo-cfc/back-rocket-challenge.git",
+  "author": "Hugo Cesar Firmino Costa <hugo.costa@tce.al.gov.br>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuidv4": "^6.2.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
